@@ -3,7 +3,7 @@
 # 8 -> 2, 4, 6, 8
 
 a = int (input ("Введите число: "))
-if a%2==0:
-    print (f"Число {a} четное")
-else:
-    print (f"Число {a} нечетное")
+even = 2
+while even <= a:
+        print (even)
+        even = even + 2
